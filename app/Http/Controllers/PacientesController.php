@@ -159,4 +159,8 @@ class PacientesController extends Controller
 
         return redirect('Pacientes');
     }
+
+    public function prueba(){
+        
+    }
 }
