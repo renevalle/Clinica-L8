@@ -160,7 +160,7 @@ class PacientesController extends Controller
         return redirect('Pacientes');
     }
 
-    public function prueba(){
-        
+    public function prueba2(){
+
     }
 }
