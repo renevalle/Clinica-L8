@@ -25,7 +25,7 @@ class Doctores extends Model
     {
         /*retornar la clase consultorios relacione con id_consultorio */
         return $this->belongsTo(Consultorios::class, 'id_consultorio');
-        /*con esto estamos diciendo que va a relacionar en la tabla de doctores en id_consultorios
+        /*con esto estamos diciendo que va a relacionar en la tabla de doctores(user) en id_consultorios
         lo que tenga en la tabla los que lo relaciona con consultorio */
     }
 }
