@@ -32,7 +32,7 @@
                             <th>Documento</th>
                             <th>Email</th>
                             <th>Telefono</th>
-                            <th>Accionn</th>
+                            <th>Accion</th>
                         </tr>
                     </thead>
 
