@@ -14,7 +14,7 @@
             <li>
                 <a href="{{ url('Ver-Consultorios') }}">
                 <i class="fa fa-medkit"></i>
-                <span>Consultorios</span>
+                <span>Consultorio</span>
                 </a>
             </li>
 
