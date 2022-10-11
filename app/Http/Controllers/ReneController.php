@@ -14,7 +14,7 @@ class ReneController extends Controller
     
     public function index()
     {
-        return view('modulos.Rene');
+        return view('modulos.Rene');//test
     }
 
 }
