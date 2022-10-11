@@ -74,7 +74,7 @@
     </div>
 </section>
 
-<div id="CrearSecretaria" class="modal fade">
+<div id="CrearSecretaria{{ $secretaria->id }}" class="modal fade">
 
     <div class="modal-dialog">
         <div class="modal-content">
