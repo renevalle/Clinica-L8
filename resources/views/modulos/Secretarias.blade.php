@@ -58,10 +58,10 @@
                                     <td>
                                         <!--modulo E-S con la variable que trae el id-->
                                     <a href="{{ url('Editar-Secretaria/'.$secretaria->id) }}">
-                                    <button class=" btn btn-success"><i class="fa fa-pencil"></i></button>
+                                    <button class=" btn btn-success" data-toggle="tooltip" data-placement="top" title="Editar"><i class="fa fa-pencil"></i></button>
                                     </a>
-                                  
-                                    <button class=" btn btn-danger EliminarSecretaria" Sid="{{ $secretaria->id }}"
+                                                                  
+                                    <button class=" btn btn-danger EliminarSecretaria" data-toggle="tooltip" data-placement="top" title="Eliminar" Sid="{{ $secretaria->id }}"
                                     ><i class="fa fa-trash"></i></button>
                                     </td>
                                 </tr>

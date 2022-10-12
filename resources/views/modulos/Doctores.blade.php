@@ -61,9 +61,11 @@
                                 <td>
                                     
                                     <a href="{{ url('editar-doctor/'.$doctor->id) }}"> <!--esto se le agrego-->
-                                    <button data-target="#editarDoctor" class=" btn btn-success"><i class="fa fa-pencil"></i></button>
+                                    <button data-target="#editarDoctor" class=" btn btn-success" data-toggle="tooltip" 
+                                    data-placement="top" title="Editar"><i class="fa fa-pencil"></i></button>
                                     </a>                                  
-                                    <button class="btn btn-danger EliminarDoctor" Did="{{ $doctor->id }}"><i class="fa fa-trash"></i></button>
+                                    <button class="btn btn-danger EliminarDoctor" Did="{{ $doctor->id }}" data-toggle="tooltip"
+                                         data-placement="top" title="Eliminar"><i class="fa fa-trash"></i></button>
                                 </td>
 
                             @endif

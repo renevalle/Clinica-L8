@@ -55,11 +55,12 @@
                             <td>                                
                                 <a href="Editar-Paciente/{{ $paciente->id }}">
 
-                                    <button class="btn btn-success"><i class="fa fa-pencil"></i></button>
+                                    <button class="btn btn-success" data-toggle="tooltip" data-placement="top" title="Editar"><i class="fa fa-pencil"></i></button>
 
                                 </a>
 
-                                <button class="btn btn-danger EliminarPaciente" Pid="{{ $paciente->id }}" 
+                                <button class="btn btn-danger EliminarPaciente" data-toggle="tooltip" data-placement="top"
+                                 title="Eliminar" Pid="{{ $paciente->id }}" 
                                 Paciente="{{ $paciente->name }}"><i class="fa fa-trash"></i></button>
                             </td>
                         </tr>

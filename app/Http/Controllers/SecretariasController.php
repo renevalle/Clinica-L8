@@ -32,6 +32,7 @@ class SecretariasController extends Controller
    
     public function store(Request $request)
     {
+        return $request;
         $datos = request()->validate([
             'name' =>['required','string','max:255'],
             'email' => ['required','string','max:255','email','unique:users'],
