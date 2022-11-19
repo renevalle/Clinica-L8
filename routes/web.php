@@ -8,7 +8,7 @@ use App\Http\Controllers\PacientesController;
 use App\Http\Controllers\CitasController;
 use App\Http\Controllers\SecretariasController;
 use App\Http\Controllers\ReneController;
-
+use Illuminate\Support\Facades\Auth;
 
 Route::get('/', function () {
     return view('modulos.Seleccionar');
